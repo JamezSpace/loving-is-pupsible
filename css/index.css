@@ -21,9 +21,12 @@
     &>button {
         padding: 10px;
         border-radius: 50%;
-        background-color: aliceblue;
+        border: 1px solid var(--brown);
         float: inline-end;
         font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     & a {
@@ -109,6 +112,10 @@ header {
     & img {
         width: 100%;
     }
+}
+.main-image {
+    /* mask-image: url('../img/mask.svg'); */
+    
 }
 
 .paw-connector-container {
